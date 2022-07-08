@@ -34,7 +34,7 @@ def Incorrect(n):
 
 
 if __name__ == "__main__":
-    n = int(input("Enter the number to get it's multiplication table: \n"))
+    n = int(input("Enter the number to get it's table: \n"))
     print(rohanmulti(n))
     #This function prints statement if any output of table is wrong.
     Incorrect(n)
